@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+/* font-family: "Raleway", sans-serif; */
+/* font-family: "Playfair Display", serif; */
+header{
+    background-image: url(../images/Eudora-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.navigation{
+    background: #0000008f;
+    height: 120px;
+    align-items: center;
+    text-align: center;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.navigation ul li{
+    color: white;
+    list-style: none;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+.navigation ul li a img{
+    width: 60%;
+    align-items: center;
+}
+.simple{
+    min-height: 90vh;
+    align-items: center;
+    text-align: center;
+}
+header h1{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 45px;
+}
+header h1 span{
+    color: #e59205;
+}
+header p{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    line-height: 25px;
+    width: 70%;
+    margin: auto;
+}
+.btn-custom{
+    background: none;
+    color: #ffffff;
+    border: none;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    padding: 8px 30px;
+    margin-top: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.btn-custom:hover{
+    background: #e59205;
+}
+.height{
+    padding: 70px;
+}
+.height h1{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #6e7498;
+    letter-spacing: 1px;
+    font-size: 45px;
+    position: relative;
+}
+.height h1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%);
+    background: #e59205;
+    width: 170px;
+    height: 1px;
+}
+.height h1::after{
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-50%);
+    background: #e59205;
+    width: 170px;
+    height: 1px;
+}
+.height p{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #a4a8bc;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    line-height: 25px;
+    width: 70%;
+    margin: auto;
+}
+
+.btn-food{
+    background: none;
+    color: #6e7498;
+    border: none;
+    border: 1px solid #a4a8bc;
+    border-radius: 0px;
+    padding: 8px 30px;
+    margin-top: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 40px 18px 0 ;
+}
+.btn-food:hover{
+    background: #e59205;
+    color: #ffffff;
+}
+.food_section{
+    
+}
+.food_item{
+    text-align: center;
+    margin-top: 50px;
+}
+.food_item img{
+    box-shadow: 0 0 7px 5px #00000009;
+}
+.food_item.active{
+    margin-top: 8px;
+}
+.food_item.active h1{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #e59205;
+    letter-spacing: 1px;
+    font-size: 45px;
+    padding-top: 20px;
+}
+.food_item.active p{
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    color: #a4a8bc;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    line-height: 25px;
+    width: 70%;
+    margin: auto;
+}
+.food_item.active span{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #3a3a3a;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.food_item.active.btn-food{
+    margin-top: 20px;
+}
+.breakfast{
+    padding-top: 70px;
+}
+.breakfast_box{
+    background: #e59205;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.breakfast h1{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 45px;
+    
+}
+.breakfast img{
+    height: 100%;
+}
+.food_menu{
+   
+}
+.item{
+    margin-bottom: 80px;
+}
+.icon_image{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    /* align-items: center; */
+    margin: auto;
+    padding: 15px;
+}
+.food_menu img{
+
+}
+.food_menu h2{
+    font-family: "Playfair Display", serif;
+    font-size: 26px;
+    color: #6e7498;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.food_menu p{
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    color: #a4a8bc;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    line-height: 30px;
+    width: 70%;
+    margin: auto;
+}
+.newsletter{
+    background-image: url(../images/newsletter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+}
+.subscribe{
+    min-height: 70vh;
+    align-items: center;
+    text-align: center;
+}
+.newsletter h1{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 45px;
+}
+.newsletter input{
+    background: none;
+    border: 1px solid #ffffff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    padding: 5px 150px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+.placeholder{
+    color: #ffffff;
+}
+.btn-newsletter{
+    background: none;
+    background: #e59205;
+    color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    padding: 8px 30px;
+    margin-top: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.btn-newsletter:hover{
+    background: #ffffff;
+    color: #e59205
+}
+footer{
+    padding: 40px 0;
+    background: #fff;
+}
+footer h6{
+    font-weight: 500;
+    color: #a4a8bc;
+    font-size: 17px;
+    text-align: center;
+}
+.contact{
+   padding-left: 50px;
+}
+.contact ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact ul li a{
+    text-decoration: none;
+    color: #a4a8bc;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+}
